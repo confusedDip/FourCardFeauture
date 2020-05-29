@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -13,32 +13,54 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+  <header>
+    <h1 id="first_heading">Reliable, efficient delivery</h1>
+    <h1 id="second_heading">Powered by Technology</h1>
+    <p id="header_description">Our Artificial Intelligence powered tools use millions of project data points
+    to ensure that your project is successful</p>
+  </header>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
 
-  Supervisor
-  Monitors activity to identify project roadblocks
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+  <main>
+    <div class ="feature" id="Supervisor">
+      <h2>Supervisor</h2>
+      <p>Monitors activity to identify project roadblocks</p>
+      <img src="images\icon-supervisor.svg" alt="Supervisor Icon">
+    </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+      <div id="TeamBuilder" class ="feature">
+        <h2>Team Builder</h2>
+        <p>Scans our talent network to create the optimal team for your project</p>
+        <img src="images\icon-team-builder.svg" alt="Team Builder Icon">
+      </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+      <div id="Karma" class ="feature">
+        <h2>Karma</h2>
+        <p>Regularly evaluates our talent to ensure quality</p>
+        <img src="images\icon-karma.svg" alt="Karma Icon">
+      </div>
 
-  
+
+    <div id="Calculator" class ="feature">
+      <h2>Calculator</h2>
+      <p>Uses data from past projects to provide better delivery estimates</p>
+      <img src="images\icon-calculator.svg" alt="Calculator Icon">
+    </div>
+
+  </main>
+
+
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Souradip Nath</a>.
     </p>
   </footer>
 </body>
