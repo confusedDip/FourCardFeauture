@@ -1,0 +1,188 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  background-color: hsl(0, 0%, 98%);
+}
+
+/****** Header Section ******/
+header{
+  text-align: center;
+  line-height: 0.8;
+  padding: 5% 6%;
+  margin-top: 10%;
+}
+#first_heading{
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+  font-size: 1.5rem;
+}
+#second_heading{
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  font-size: 1.5rem;
+}
+#header_description{
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 0.9375rem;
+}
+
+/*****Header Ends*******/
+
+/****Main Section*******/
+main{
+  padding: 5% ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main h2{
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  font-size: 1.2rem;
+  line-height: 0.8;
+}
+main p{
+  color: hsl(229, 6%, 66%);
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+.feature{
+  border-radius: 3%;
+  padding: 3% 9%;
+  margin-top: 10%;
+  width: 80%;
+  box-shadow: 0px 10px 18px hsl(229, 6%, 66%);
+}
+img{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 25%;
+  position: relative;
+  left: 75%;
+}
+
+#Calculator{
+  border-top: solid 5px hsl(212, 86%, 64%);
+}
+
+#Karma{
+  border-top: solid 5px hsl(34, 97%, 64%);
+}
+
+#TeamBuilder{
+  border-top: solid 5px hsl(0, 78%, 62%);
+}
+
+#Supervisor{
+  border-top: solid 5px hsl(180, 62%, 55%);
+}
+
+/*****Main Section Ends******/
+
+/******Footer Section********/
+footer{
+  margin-top: 10%;
+}
+
+/*******Footer ends*********/
+
+
+/******Media Queries for larger screen*******/
+@media all and (min-width: 778px){
+  /****** Header Section ******/
+  header{
+    text-align: center;
+    line-height: 0.8;
+    padding: 0% 32%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+  }
+  #first_heading{
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+    font-size: 2.5rem;
+  }
+  #second_heading{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 2.5rem;
+  }
+  #header_description{
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+
+  /*****Header Ends*******/
+
+  /****Main Section*******/
+  main{
+    padding: 0% 10% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main h2{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 1.2rem;
+    line-height: 0.8;
+  }
+  main p{
+    color: hsl(229, 6%, 66%);
+    line-height: 1.5;
+    font-size: 0.85rem;
+  }
+  .feature{
+    border-radius: 3%;
+    padding: 3%;
+    margin: 2%;
+    position: relative;
+    box-shadow: 0px 10px 18px hsl(229, 6%, 66%);
+    width:23%;
+  }
+  img{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 25%;
+    position: relative;
+    left: 75%;
+  }
+
+  #Calculator{
+    border-top: solid 5px hsl(212, 86%, 64%);
+    order: 3;
+    top: 160px;
+  }
+
+  #Karma{
+    border-top: solid 5px hsl(34, 97%, 64%);
+    order: 4;
+  }
+
+  #TeamBuilder{
+    border-top: solid 5px hsl(0, 78%, 62%);
+    order: 2;
+  }
+
+  #Supervisor{
+    border-top: solid 5px hsl(180, 62%, 55%);
+    order: 1;
+    top: 160px;
+  }
+
+  /*****Main Section Ends******/
+
+  /******Footer Section********/
+  footer{
+    margin-top: 5%;
+  }
+
+  /*******Footer ends*********/
+
+
+}
